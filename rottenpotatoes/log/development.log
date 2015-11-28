@@ -879,3 +879,201 @@ Migrating to AddDirectorToMovies (20151128111821)
   [1m[36m (0.2ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
   [1m[35m (6.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151128111821')
   [1m[36m (7.9ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20111119180638')[0m
+
+
+Started GET "/assets/rails.png" for 85.201.196.219 at 2015-11-28 17:55:48 +0000
+
+
+Started GET "/assets/rails.png" for 85.201.196.219 at 2015-11-28 17:56:44 +0000
+
+
+Started GET "/assets/rails.png" for 85.201.196.219 at 2015-11-28 18:00:19 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:14 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:15 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:16 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:17 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:22 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000
+
+
+Started GET "/movies" for 85.201.196.219 at 2015-11-28 18:03:23 +0000

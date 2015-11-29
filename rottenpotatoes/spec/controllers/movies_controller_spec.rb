@@ -21,13 +21,13 @@ describe MoviesController do
       response.should redirect_to('/movies')
     end
 
-#    it 'should make the with_same_director search results available to the view' do
-#      fake_results = [mock('Movie'), mock('Movie')]
-#      Movie.stub(:with_same_director).and_return(fake_results)
-#      get :with_same_director, {:id => 1}
+    it 'should make the with_same_director search results available to the view' do
+      fake_results = [double('Movie'), double('Movie')]
+      Movie.stub(:with_same_director).and_return(fake_results)
+      get :with_same_director, {:id => 1}
       # look for controller method to assign @movies
-#      assigns(:movies_with_same_director).should == fake_results
-#    end
+      assigns(:movies_with_same_director).should == fake_results
+    end
 
   end
 

@@ -16,6 +16,13 @@ describe MoviesController do
   end
 
   describe 'showing the home page with the index filtered and sorted' do
+
+#    it 'should call the where method of Movie' do
+#      Movie.create!({title: 'My New Movie', rating: 'R', release_date: '1984-10-26 00:00:00 UTC'})
+#      Movie.should_receive(:where)
+#      get :index
+#    end
+
     it 'should call the all_ratings method of the model' do
       Movie.should_receive(:all_ratings)
       get :index, {sort: 'title', ratings: ['R', 'G']}
@@ -82,6 +89,15 @@ describe MoviesController do
       response.should redirect_to('/movies')
     end
   end
+
+
+  describe 'Getting the edit form' do
+    it 'should render the edit form' do
+      get :edit, {id: 1}
+      response.should render_template('edit')
+    end
+  end
+
 
   describe 'PUT update' do
     it "redirects to the updated movie" do

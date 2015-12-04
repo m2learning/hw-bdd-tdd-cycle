@@ -17,20 +17,33 @@ describe MoviesController do
 
   describe 'showing the home page with the index filtered and sorted' do
 
-#    it 'should call the where method of Movie' do
-#      Movie.create!({title: 'My New Movie', rating: 'R', release_date: '1984-10-26 00:00:00 UTC'})
+    it 'should assign movies' do
+#      fake_results = [double('Movie'), double('Movie')]
+#      Movie.stub(:where).and_return(fake_results)
+#      Array.stub(:order).and_return(fake_results) 
+#      get :index
+      # look for controller method to assign @movies
+#      assigns(:movies).should == fake_results
+    end
+
+    it 'should call the where method of Movie' do
 #      Movie.should_receive(:where)
 #      get :index
-#    end
+
+#      session[:sort] = 'title'
+#      session[:ratings] = {R: 'R', G: 'G'} 
+#      get :index, {ratings: session[:ratings]}
+#      get :index, {sort: session[:sort], ratings: session[:ratings]}
+    end
 
     it 'should call the all_ratings method of the model' do
       Movie.should_receive(:all_ratings)
-      get :index, {sort: 'title', ratings: ['R', 'G']}
+      get :index, {sort: 'title', ratings: {R: 'R', G: 'G'}}
     end
 
     it 'should redirect to restful url' do
-      get :index, {sort: 'release_date', ratings: ['R', 'G']}
-      response.should redirect_to('/movies?ratings%5B%5D=R&ratings%5B%5D=G&sort=release_date')
+      get :index, {sort: 'release_date', ratings: {R: 'R', G: 'G'}}
+      response.should redirect_to('/movies?ratings%5BG%5D=G&ratings%5BR%5D=R&sort=release_date')
     end
 
   end

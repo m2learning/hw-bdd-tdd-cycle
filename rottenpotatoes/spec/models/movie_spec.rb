@@ -20,6 +20,15 @@ describe 'MovieModel' do
       @movies = Movie.with_same_director(3)
       expect(@movies).to eq(nil)
     end
-
   end
+
+  describe 'searching movie with where clause' do
+    it 'should find the movies with the specified rating' do
+      @ordering =  {:release_date => :asc}
+      @all_ratings = Movie.all_ratings
+      @movies = Movie.where(rating: @all_ratings).order(@ordering)
+      expect(@movies.length).to eq(4)
+    end
+  end
+
 end

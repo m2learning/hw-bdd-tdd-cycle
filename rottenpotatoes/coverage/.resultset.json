@@ -208,7 +208,7 @@
       "/home/ubuntu/hw-bdd-tdd-cycle/rottenpotatoes/app/models/movie.rb": [
         1,
         1,
-        2,
+        3,
         null,
         null,
         1,
@@ -221,6 +221,6 @@
         null
       ]
     },
-    "timestamp": 1449186991
+    "timestamp": 1449222172
   }
 }

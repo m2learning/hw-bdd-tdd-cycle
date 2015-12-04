@@ -103,13 +103,13 @@
       "/home/ubuntu/hw-bdd-tdd-cycle/rottenpotatoes/app/helpers/movies_helper.rb": [
         1,
         null,
-        1,
-        0,
+        null,
+        null,
         null,
         null
       ]
     },
-    "timestamp": 1449152091
+    "timestamp": 1449224782
   },
   "RSpec": {
     "coverage": {

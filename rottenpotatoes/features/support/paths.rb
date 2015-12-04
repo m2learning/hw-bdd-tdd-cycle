@@ -22,7 +22,9 @@ module NavigationHelpers
     when /^the details page for "Star Wars"$/ then '/movies/1'
 
     when /^the details page for "Alien"$/ then '/movies/3'
-#    when /^the details page for "Amelie"$/ then '/movies/6'
+
+    when /^the details page for "Amelie"$/ then '/movies/6'
+    when /^the edit "Amelie" page$/ then '/movies/6/edit'
 
     when /^the Similar Movies page for "Star Wars"$/ then '/movies/1/with_same_director'
 

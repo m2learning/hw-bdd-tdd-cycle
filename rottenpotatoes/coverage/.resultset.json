@@ -109,7 +109,7 @@
         null
       ]
     },
-    "timestamp": 1449247938
+    "timestamp": 1449353227
   },
   "RSpec": {
     "coverage": {
@@ -120,8 +120,8 @@
       "/home/ubuntu/hw-bdd-tdd-cycle/rottenpotatoes/app/helpers/movies_helper.rb": [
         1,
         null,
-        1,
-        0,
+        null,
+        null,
         null,
         null
       ],
@@ -221,6 +221,6 @@
         null
       ]
     },
-    "timestamp": 1449222642
+    "timestamp": 1449353014
   }
 }

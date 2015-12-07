@@ -55,7 +55,7 @@ RSpec.configure do |config|
 
 
   # Added by m2learning
-  config.infer_base_class_for_anonymous_controllers = false
+  #config.infer_base_class_for_anonymous_controllers = false
 
 end
 
